@@ -2,7 +2,7 @@
 
 *Russia, Kemerovo*\
 eliza.sashenkova@gmail.com | *+7 (996) 331 86 79*\
-[Github](https://github.com/llS634) | [Linkedin](https://www.linkedin.com/in/elisash/)
+[Github](https://github.com/llS634) | [Linkedin](https://www.linkedin.com/in/elisash/) | [Behance](https://www.behance.net/elisash)
 
 Received an art education as an artist master. Started my career as a freelance retoucher, working with an Australian photographer. Then I was a photographer at a yoga studio and worked as a designer creator. Right now I'm studying UX/UI and Front-end/JavaScript.
 
