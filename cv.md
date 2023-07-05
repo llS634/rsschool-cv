@@ -17,7 +17,7 @@ Photoshop | Capture One | Illustrator | Blender | Figma
 
 ## Projects
 [Momentum](https://glittering-swan-6b67b8.netlify.app/)\
-[Shelter](https://lls634-shelter-task.netlify.app/
+[Shelter](https://lls634-shelter-task.netlify.app/)
 
 ## Code
 ```
