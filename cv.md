@@ -15,6 +15,10 @@ HTML | CSS | JavaScript Basics | GitHub | VS Code
 
 Photoshop | Capture One | Illustrator | Blender | Figma
 
+## Projects
+[Momentum](https://glittering-swan-6b67b8.netlify.app/)\
+[Shelter](https://lls634-shelter-task.netlify.app/
+
 ## Courses
 **JS/Front-End**\
 [The Rolling Scopes](https://rs.school/) (Dec 2022 - Present)
