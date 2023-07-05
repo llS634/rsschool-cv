@@ -19,6 +19,29 @@ Photoshop | Capture One | Illustrator | Blender | Figma
 [Momentum](https://glittering-swan-6b67b8.netlify.app/)\
 [Shelter](https://lls634-shelter-task.netlify.app/
 
+## Code
+```
+function showDate() {
+  const day = document.querySelector('.date');
+  const date = new Date();
+  const options = {weekday: 'long', month: 'long', day: 'numeric'};
+  const currentDate = date.toLocaleDateString('en-US', options);
+  day.textContent = currentDate;
+}
+showDate();
+
+function showTime() {
+  const time = document.querySelector('.time');
+  const date = new Date();
+  const currentTime = date.toLocaleTimeString();
+  setTimeout(showTime, 1000);
+  time.textContent = currentTime;
+  console.log(currentTime);
+  console.log(date);
+}
+showTime();
+```
+
 ## Courses
 **JS/Front-End**\
 [The Rolling Scopes](https://rs.school/) (Dec 2022 - Present)
