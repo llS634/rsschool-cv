@@ -1,0 +1,302 @@
+@media (max-width: 400px) {
+    .photo {
+        width: 260px;
+        height: 260px;
+    }
+
+    .about-block {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 451px) {
+    .logo-position {
+        display: none;
+    }
+}
+
+@media (max-width: 580px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 930px) {
+    .menu {
+        margin-left: 6%;
+    }
+
+    .menu-item:not(:last-child) {
+        margin-right: 2%;
+    }
+}
+
+@media (max-width: 950px) {
+    .logo-position {
+        display: none;
+    }
+
+    .menu {
+        margin-left: 10%;
+    }
+
+    .menu-list {
+        flex-wrap: wrap;
+    }
+}
+/*---------------------------------------------------------------------*/
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #ffaac7;
+}
+
+a:hover {
+    color: #ffffff;
+    transition: 0.2s ease-out;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+    font-family: "Ubuntu", sans-serif;
+}
+
+html,
+body {
+    line-height: 1.3;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #ffaac7;
+    background: #2e1b81;
+}
+
+header {
+    height: 20%;
+    line-height: 1.3;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #ffaac7;
+    background: #ee2020;
+}
+
+
+html {
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth; 
+}
+
+/*---------------------------------------------------------------------*/
+
+._container {
+    max-width: 80%;
+    margin: auto;
+    box-sizing: content-box;
+}
+/*-----------------------------HEADER----------------------------------------*/
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    font-family: "Ubuntu", sans-serif;
+    line-height: 1.3;
+    font-size: 36px;
+    max-height: 500px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
+}
+
+.menu {
+    margin-left: 30%;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 6%;
+}
+
+/*-----------------------------MAIN---------------------------------------*/
+.main {
+    flex: 1 1 auto;
+}
+
+/*-----------------------------BODY SECTION ABOUT---------------------------------------*/
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.about-head {
+    font-size: 32px;
+}
+
+.about-block {
+    max-width: 500px;
+    margin-left: 10%;
+}
+
+.about-block > *:not(:last-child){
+    margin: 0px 0px 20px 0px;
+}
+
+/*-----------------------------BODY SECTION ACCORDION----------------------------------------*/
+.accordion {
+    max-width: 80%;
+    margin: auto;
+}
+
+
+.info {
+    background-color: #ffaac7;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+
+.accordion-info {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    color: #1a3c22;
+    font-family: "Ubuntu", sans-serif;
+    padding: 18px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.2s ease-out;
+}
+
+.accordion-info:after {
+    content: "";
+    display: block;
+    top: 50%;
+    right: 15px;
+    position: absolute;
+    border-style: solid;
+    border-width: 8px 5px 0 5px;
+    border-color: #1a3c22 transparent transparent transparent;
+    transform: translateY(-50%);
+}
+
+
+.accordion-info:hover {
+    background-color: #ff7ea9;
+    border-radius: 10px;
+}
+
+
+.content-click {
+    appearance: none;
+    position: absolute;
+}
+
+
+.content-click:checked ~ .content{
+    display: block;
+}
+
+
+.content-click:checked ~ .accordion-info {
+    background-color: #ffaac7;
+    border-radius: 10px;
+}
+
+
+.content-click:checked ~ .accordion-info:after {
+    border-style: solid;
+    border-width: 0 5px 8px 5px;
+    border-color: transparent transparent #1a3c22 transparent;
+}
+
+
+.content {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 20px;
+    color: #1a3c22;
+}
+
+.link-email {
+    color: #1a3c22;
+}
+
+.link-github {
+    color: #1a3c22;
+}
+
+.link-linkedin {
+    color: #1a3c22;
+}
+
+.link-discord {
+    color: #1a3c22;
+}
+
+.momentum {
+    color: #1a3c22;
+}
+
+.link-discord {
+    color: #1a3c22;
+}
+
+.momentum {
+    color: #1a3c22;
+}
+
+.shelter{
+    color: #1a3c22;
+}
+
+.link-rs {
+    color: #1a3c22;
+}
+/*-----------------------------FOOTER----------------------------------------*/
+.footer-info {  
+    justify-content: center;
+    align-items: center; 
+    padding: 20px 0px 20px 0px;
+}
+
+.footer-info > *{
+    margin: 0px 0px 10px 0px;
+}
