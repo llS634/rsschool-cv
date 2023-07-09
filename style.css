@@ -3,14 +3,14 @@
         width: 260px;
         height: 260px;
     }
-
-    .about-block {
-        padding-top: 40px;
-    }
 }
 
 @media (max-width: 451px) {
     .logo-position {
+        display: none;
+    }
+
+    .menu {
         display: none;
     }
 }
@@ -20,15 +20,16 @@
         display: flex;
         flex-direction: column;
     }
+
+    .about-block {
+        padding-top: 40px;
+        margin-right: 15%;
+    }
 }
 
 @media (max-width: 930px) {
-    .menu {
-        margin-left: 6%;
-    }
-
     .menu-item:not(:last-child) {
-        margin-right: 2%;
+        margin-left: 2%;
     }
 }
 
@@ -37,7 +38,7 @@
         display: none;
     }
 
-    .menu {
+    .menu-item:not(:last-child) {
         margin-left: 10%;
     }
 
@@ -112,6 +113,15 @@ html {
     scroll-behavior: smooth; 
 }
 
+pre {
+width: 100%;
+padding: 0;
+margin: 0;
+overflow: auto;
+overflow-y: hidden;
+font-size: 12px;
+line-height: 20px;
+}
 /*---------------------------------------------------------------------*/
 
 ._container {
@@ -120,7 +130,6 @@ html {
     box-sizing: content-box;
 }
 /*-----------------------------HEADER----------------------------------------*/
-
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -140,7 +149,7 @@ html {
 }
 
 .menu {
-    margin-left: 30%;
+    margin-left: 20%;
 }
 
 .menu-list {
@@ -148,7 +157,7 @@ html {
 }
 
 .menu-item:not(:last-child) {
-    margin-right: 6%;
+    margin-right: 20px;
 }
 
 /*-----------------------------MAIN---------------------------------------*/
@@ -170,13 +179,17 @@ html {
 
 .about-block {
     max-width: 500px;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
 .about-block > *:not(:last-child){
     margin: 0px 0px 20px 0px;
 }
 
+.photo {
+    width: 300px;
+    height: 300px;
+}
 /*-----------------------------BODY SECTION ACCORDION----------------------------------------*/
 .accordion {
     max-width: 80%;
@@ -251,7 +264,7 @@ html {
     display: none;
     justify-content: center;
     align-items: center;
-    padding: 20px 0px 20px 20px;
+    padding: 20px;
     color: #1a3c22;
 }
 
@@ -300,3 +313,4 @@ html {
 .footer-info > *{
     margin: 0px 0px 10px 0px;
 }
+
