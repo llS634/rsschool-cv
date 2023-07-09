@@ -52,9 +52,8 @@
     <main class="main">
         <article>
             <section class="about _container">
-                <div class="photo">
-                    <img src="assets/img/photo.jpg" alt="photo"
-                    width="300" height="300">
+                <div>
+                    <img class="photo" src="assets/img/photo.jpg" alt="photo">
                 </div>
 
                 <div class="about-block">
@@ -127,29 +126,29 @@
                 <div class="info">
                     <input class="content-click" type="checkbox" id="code">
                     <label class="accordion-info" for="code">Code</label>
-                    <pre class="content">
-                        <code class="code-text">
-                        function showDate() {
-                            const day = document.querySelector('.date');
-                            const date = new Date();
-                            const options = {weekday: 'long', month: 'long', day: 'numeric'};
-                            const currentDate = date.toLocaleDateString('en-US', options);
-                            day.textContent = currentDate;
-                          }
-                          showDate();
+                    <code class="content">
+                        <pre>
+function showDate() {
+    const day = document.querySelector('.date');
+    const date = new Date();
+    const options = {weekday: 'long', month: 'long', day: 'numeric'};
+    const currentDate = date.toLocaleDateString('en-US', options);
+    day.textContent = currentDate;
+  }
+  showDate();
                           
-                          function showTime() {
-                            const time = document.querySelector('.time');
-                            const date = new Date();
-                            const currentTime = date.toLocaleTimeString();
-                            setTimeout(showTime, 1000);
-                            time.textContent = currentTime;
-                            console.log(currentTime);
-                            console.log(date);
-                          }
-                          showTime();
-                        </code>
-                    </pre>
+  function showTime() {
+    const time = document.querySelector('.time');
+    const date = new Date();
+    const currentTime = date.toLocaleTimeString();
+    setTimeout(showTime, 1000);
+    time.textContent = currentTime;
+    console.log(currentTime);
+    console.log(date);
+  }
+  showTime();
+                        </pre>
+                    </code>
                 </div>
 
                 <div class="info">
