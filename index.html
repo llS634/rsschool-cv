@@ -46,6 +46,10 @@
                 </li>
             </ul>
             </nav>
+
+            <div class="burger">
+                <span></span>
+            </div>
         </section>
     </header>
 
@@ -68,6 +72,7 @@
             </section>
 
             <section class="accordion _container">
+                <div class="container-accordion-1">
                 <div class="info">
                     <input class="content-click" type="checkbox" id="contacts">
                     <label class="accordion-info" for="contacts">Contacts</label>
@@ -122,12 +127,14 @@
                         </a>
                     </div>
                 </div>
+                </div>
 
+                <div class="container-accordion-2">
                 <div class="info">
                     <input class="content-click" type="checkbox" id="code">
                     <label class="accordion-info" for="code">Code</label>
-                    <code class="content">
-                        <pre>
+                    <pre class="content">
+                        <code>
 function showDate() {
     const day = document.querySelector('.date');
     const date = new Date();
@@ -137,7 +144,7 @@ function showDate() {
   }
   showDate();
                           
-  function showTime() {
+function showTime() {
     const time = document.querySelector('.time');
     const date = new Date();
     const currentTime = date.toLocaleTimeString();
@@ -147,13 +154,13 @@ function showDate() {
     console.log(date);
   }
   showTime();
-                        </pre>
-                    </code>
+                        </code>
+                    </pre>
                 </div>
 
                 <div class="info">
-                    <input class="content-click" type="checkbox" id="corses">
-                    <label class="accordion-info" for="corses">Corses</label>
+                    <input class="content-click" type="checkbox" id="courses">
+                    <label class="accordion-info" for="courses">Courses</label>
                     <div class="content">
                         <p class="corses-text">
                             The Rolling Scopes:
@@ -178,22 +185,30 @@ function showDate() {
                         </p>
                     </div>
                 </div>
+                </div>
             </section>
         </article>
     </main>
 
     <footer class="footer _container">
         <section class="footer-info">
+            <div>
             <a href="https://github.com/llS634" class="link-githib">Github</a>
 
-            <p>
+            <p class="year">
                 2023
             </p>
+        </div>
 
-            <a href="https://rs.school/js/">
+        <div>
+            <a class="rs-svg" href="https://rs.school/js/">
                 <img src="assets/cvg/rs_school_js.svg" alt="logo rs school">
             </a>
+        </div>
         </section>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
