@@ -388,7 +388,7 @@ line-height: 20px;
     }
 
     .menu {
-        display: none;
+        padding-left: 50px;
     }
 }
 
